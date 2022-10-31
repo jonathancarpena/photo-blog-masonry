@@ -10,20 +10,15 @@
 
 <ul style="display:flex flex-direction:column">
 <img src="./screenshots/landing.PNG" width="690" height="375" alt="landing"> 
-<img src="./screenshots/services.PNG" width="690" height="375" alt="services">
-<img src="./screenshots/single-service.PNG" width="690" height="375" alt="single-service">    
-<img src="./screenshots/booking-page.PNG" width="690" height="375" alt="booking-page">    
-<img src="./screenshots/availability.PNG" width="690" height="375" alt="booking-slots">
-<img src="./screenshots/bookings.PNG" width="690" height="375" alt="admin-bookings">
+<img src="./screenshots/dateOnHover.PNG" width="690" height="375" alt="dateOnHover">
+<img src="./screenshots/photoOpen.PNG" width="690" height="375" alt="photoOpen">    
 </ul>
 
 ### Mobile Design
 
 <ul style="display:flex">
-<img src="./screenshots/mobile-landing.PNG" width="173" height="361" alt="mobile-landing">  
-<img src="./screenshots/mobile-services.PNG" width="173" height="361" alt="mobile-services">  
-<img src="./screenshots/mobile-single-service.PNG" width="173" height="361" alt="mobile-single-service">  
-<img src="./screenshots/mobile-booking-page.PNG" width="173" height="361" alt="mobile-booking-page">  
+<img src="./screenshots/tablet.PNG" width="173" height="361" alt="tablet">  
+<img src="./screenshots/mobile.PNG" width="173" height="361" alt="mobile">  
 </ul>
 
 ## ⚙ Technologies
