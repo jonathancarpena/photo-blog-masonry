@@ -1,10 +1,10 @@
 # React + Typescript Masonry
 
-> A Responsve Masonry built using React + Tailwind. (Optional: Contentful as Headless CMS)
+> A Responsve Masonry built using React + Typescript. (Optional: Contentful as Headless CMS)
 
 ## 🚀 Objective
 
-> To build a responsive photo blog masonry with React + Tailwind.
+> To build a responsive photo blog masonry with React + Typescript.
 
 ## 📸 Screenshots
 
