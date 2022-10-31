@@ -1,29 +1,24 @@
 # React + Typescript Masonry
 
-> A Responsve Masonry built using React + Tailwind. (Optional: Contentful as Headless CMS)
+> A responsive masonry built using React + Typescript. (Optional: Contentful as Headless CMS)
 
 ## 🚀 Objective
 
-> To build a responsive photo blog masonry with React + Tailwind.
+> To build a responsive photo blog masonry with React + Typescript.
 
 ## 📸 Screenshots
 
 <ul style="display:flex flex-direction:column">
 <img src="./screenshots/landing.PNG" width="690" height="375" alt="landing"> 
-<img src="./screenshots/services.PNG" width="690" height="375" alt="services">
-<img src="./screenshots/single-service.PNG" width="690" height="375" alt="single-service">    
-<img src="./screenshots/booking-page.PNG" width="690" height="375" alt="booking-page">    
-<img src="./screenshots/availability.PNG" width="690" height="375" alt="booking-slots">
-<img src="./screenshots/bookings.PNG" width="690" height="375" alt="admin-bookings">
+<img src="./screenshots/dateOnHover.PNG" width="690" height="375" alt="dateOnHover">
+<img src="./screenshots/photoOpen.PNG" width="690" height="375" alt="photoOpen">    
 </ul>
 
 ### Mobile Design
 
 <ul style="display:flex">
-<img src="./screenshots/mobile-landing.PNG" width="173" height="361" alt="mobile-landing">  
-<img src="./screenshots/mobile-services.PNG" width="173" height="361" alt="mobile-services">  
-<img src="./screenshots/mobile-single-service.PNG" width="173" height="361" alt="mobile-single-service">  
-<img src="./screenshots/mobile-booking-page.PNG" width="173" height="361" alt="mobile-booking-page">  
+<img src="./screenshots/tablet.PNG" width="271" height="361" alt="tablet">  
+<img src="./screenshots/mobile.PNG" width="173" height="361" alt="mobile">  
 </ul>
 
 ## ⚙ Technologies
