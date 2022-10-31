@@ -1,6 +1,6 @@
 # React + Typescript Masonry
 
-> A Responsve Masonry built using React + Typescript. (Optional: Contentful as Headless CMS)
+> A responsive masonry built using React + Typescript. (Optional: Contentful as Headless CMS)
 
 ## 🚀 Objective
 
