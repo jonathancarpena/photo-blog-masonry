@@ -17,7 +17,7 @@
 ### Mobile Design
 
 <ul style="display:flex">
-<img src="./screenshots/tablet.PNG" width="173" height="361" alt="tablet">  
+<img src="./screenshots/tablet.PNG" width="271" height="361" alt="tablet">  
 <img src="./screenshots/mobile.PNG" width="173" height="361" alt="mobile">  
 </ul>
 
