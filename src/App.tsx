@@ -78,13 +78,26 @@ function App() {
 		if (!datedPhotos) {
 			const temp: any = {};
 			Photos.forEach((item) => {
-				if (temp.hasOwnProperty(`${item.date.month} ${item.date.year}`)) {
-					temp[`${item.date.month} ${item.date.year}`] = [
-						...temp[`${item.date.month} ${item.date.year}`],
-						item,
-					];
+				const { year, month, day } = item.date;
+				const type = generatePhotoType(item.width, item.height);
+				const key = `${month} ${year}`;
+				const content = item.content;
+				const alt = item.alt;
+				const caption = item.caption;
+				const id = item.id;
+				const photo = {
+					id,
+					content,
+					alt,
+					caption,
+					type,
+					date: { year, month, day },
+				};
+
+				if (temp.hasOwnProperty(key)) {
+					temp[key] = [...temp[key], photo];
 				} else {
-					temp[`${item.date.month} ${item.date.year}`] = [item];
+					temp[key] = [photo];
 				}
 			});
 

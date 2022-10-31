@@ -26,6 +26,13 @@ export function destructureDate(date: string): {
 }
 
 export function generatePhotoType(width: number, height: number): string {
-	console.log(width);
-	return 'square';
+	const ratio = width / height;
+
+	if (ratio <= 0.8) {
+		return 'portrait';
+	} else if (ratio > 0.8 && ratio < 1.125) {
+		return 'square';
+	} else {
+		return 'landscape';
+	}
 }

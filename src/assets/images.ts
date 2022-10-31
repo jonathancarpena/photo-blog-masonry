@@ -1,180 +1,194 @@
 import { Photo } from '../lib/interfaces';
 
-import img1 from './square.PNG';
-import img2 from './portrait.PNG';
-import img3 from './landscape.PNG';
-import img4 from './portrait-2.PNG';
-import img5 from './square-2.PNG';
-import img6 from './landscape-2.PNG';
+import img1 from './1.PNG';
+import img2 from './2.PNG';
+import img3 from './3.PNG';
+import img4 from './4.PNG';
+import img5 from './5.PNG';
+import img6 from './6.PNG';
+import img7 from './7.PNG';
+import img8 from './8.PNG';
+import img9 from './9.PNG';
+import img10 from './10.PNG';
+import img11 from './11.PNG';
+import img12 from './12.PNG';
 
-const images: Photo[] = [
+// Images are from https://www.instagram.com/cdxtech/
+
+interface SampleImages extends Photo {
+	width: number;
+	height: number;
+}
+const images: SampleImages[] = [
+	// October 2022
 	{
 		id: 1,
-		type: 'square',
+		type: '',
 		content: img1,
 		alt: 'img1',
+		width: 1036,
+		height: 1036,
 		date: {
 			month: 'Oct',
 			day: 5,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
+		caption: 'Aesthetic Keychain holder',
 	},
 	{
 		id: 2,
-		type: 'portrait',
+		type: '',
 		content: img2,
 		alt: 'img2',
+		width: 755,
+		height: 1091,
 		date: {
 			month: 'Oct',
 			day: 12,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
+		caption: 'Current Desk Setup',
 	},
 	{
 		id: 3,
-		type: 'landscape',
+		type: '',
 		content: img3,
 		alt: 'img3',
+		width: 739,
+		height: 1131,
 		date: {
 			month: 'Oct',
 			day: 17,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
+		caption: 'Apple Ecosystem takeover',
 	},
 	{
 		id: 4,
-		type: 'portrait',
+		type: '',
 		content: img4,
 		alt: 'img4',
+		width: 400,
+		height: 600,
 		date: {
 			month: 'Oct',
 			day: 22,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
+		caption: 'Well if you look at the time.',
 	},
 	{
 		id: 5,
 		alt: 'img5',
-		type: 'square',
+		type: '',
 		content: img5,
+		width: 899,
+		height: 528,
 		date: {
 			month: 'Oct',
 			day: 24,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
+		caption: 'Sleek Leather DeskMat',
 	},
 	{
 		id: 6,
 		alt: 'img6',
-		type: 'landscape',
+		type: '',
 		content: img6,
+		width: 897,
+		height: 484,
 		date: {
 			month: 'Oct',
 			day: 22,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
+		caption: 'Sweater Weather.',
 	},
 	{
 		id: 7,
 		alt: 'img7',
-		type: 'portrait',
-		content: img4,
+		type: '',
+		content: img7,
+		width: 750,
+		height: 750,
 		date: {
 			month: 'Oct',
-			day: 22,
+			day: 30,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
+		caption: '3:36. Time to Work.',
 	},
+	// November 2022
 	{
 		id: 8,
 		alt: 'img8',
-		type: 'square',
-		content: img5,
+		type: '',
+		content: img8,
+		width: 798,
+		height: 1047,
 		date: {
 			month: 'Nov',
-			day: 22,
+			day: 3,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
+		caption: 'Samsung S22 Ultra.',
 	},
 	{
 		id: 9,
 		alt: 'img9',
-		type: 'square',
-		content: img1,
+		type: '',
+		content: img9,
+		width: 821,
+		height: 1055,
 		date: {
 			month: 'Nov',
-			day: 22,
+			day: 7,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
+		caption: 'Cool Wallet. Cool Light.',
 	},
 	{
 		id: 10,
 		alt: 'img10',
-		type: 'landscape',
-		content: img3,
+		type: '',
+		content: img10,
+		width: 832,
+		height: 832,
 		date: {
 			month: 'Nov',
-			day: 22,
+			day: 9,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
+		caption: 'A small hint of color.',
 	},
 	{
 		id: 11,
 		alt: 'img11',
-		type: 'portrait',
-		content: img4,
+		type: '',
+		content: img11,
+		width: 734,
+		height: 734,
 		date: {
 			month: 'Nov',
-			day: 22,
+			day: 18,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
+		caption: 'My dream film camera.',
 	},
 	{
 		id: 12,
 		alt: 'img12',
-		type: 'square',
-		content: img5,
+		type: '',
+		content: img12,
+		width: 857,
+		height: 504,
 		date: {
 			month: 'Nov',
-			day: 22,
+			day: 23,
 			year: 2022,
 		},
-		caption: 'Sweater Weather',
-	},
-	{
-		id: 13,
-		alt: 'img13',
-		type: 'landscape',
-		content: img6,
-		date: {
-			month: 'Nov',
-			day: 22,
-			year: 2022,
-		},
-		caption: 'Sweater Weather',
-	},
-	{
-		id: 14,
-		alt: 'img14',
-		type: 'portrait',
-		content: img4,
-		date: {
-			month: 'Nov',
-			day: 22,
-			year: 2020,
-		},
-		caption: 'Sweater Weather',
+		caption: 'Xbox Controller with a Red Skin',
 	},
 ];
 
