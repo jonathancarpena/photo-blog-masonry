@@ -9,9 +9,9 @@
 ## 📸 Screenshots
 
 <ul style="display:flex flex-direction:column">
-<img src="./screenshots/landing.PNG" width="690" height="375" alt="landing"> 
-<img src="./screenshots/dateOnHover.PNG" width="690" height="375" alt="dateOnHover">
-<img src="./screenshots/photoOpen.PNG" width="690" height="375" alt="photoOpen">    
+<img src="./screenshots/landing.PNG" style="max-width:100%; max-height:375px;" alt="landing"> 
+<img src="./screenshots/dateOnHover.PNG" style="max-width:100%; max-height:375px;" alt="dateOnHover">
+<img src="./screenshots/photoOpen.PNG" style="max-width:100%; max-height:375px;" alt="photoOpen">    
 </ul>
 
 ### Mobile Design
